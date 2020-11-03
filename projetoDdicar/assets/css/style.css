@@ -1,0 +1,90 @@
+#brand {
+    font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    margin: 0px 20px;
+    padding-bottom: 1px;
+}
+
+#menu {
+    font-size: 18px;
+    margin: 0px 30px;
+}
+
+.jumbotron {
+    background-image: url('.././images/jumbotron.jpg');
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    background-size: cover;
+}
+
+section {
+    margin: 100px 0px;
+}
+
+h1 {
+    color:#004617;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 1px 1px 2px  rgb(158, 209, 81);
+}
+
+.prop-img {
+    text-align:center;
+    margin: 30px 0px;
+}
+
+#elis-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid #cccccc;
+}
+
+#produto-mini {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border: 5px solid #ccc;
+}
+
+.car-img {
+    height: 300px;
+}
+
+.card-img-top {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.icone-sociais {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 20px;
+}
+
+@media (max-width: 576px) { 
+    #brand {
+        font-size: 22px;
+    }
+    
+    #brand img{
+        display: none;
+    }
+
+    #header-logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .prod-box {
+        display: block;
+    }
+
+    .col-4-xm {
+        width: 100%;
+    }
+
+}
